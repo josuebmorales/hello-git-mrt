@@ -5,5 +5,6 @@ if(isset($_SESSION['user_id'])){
     header("Location: index.php");
 }
 
-require 'database.php';
+require 'dbd.php';
 ?>
+
